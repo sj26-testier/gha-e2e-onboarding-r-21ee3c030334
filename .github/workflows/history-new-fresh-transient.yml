@@ -1,0 +1,1 @@
+{"name": "history-new-fresh-transient", "on": {"push": {"branches": ["hist-fresh"], "paths": ["transient.txt"]}}, "permissions": {}, "jobs": {"observe": {"runs-on": "ubuntu-latest", "timeout-minutes": 2, "steps": [{"run": "printf \"EVENT=%s SHA=%s REF=%s\\n\" \"$GITHUB_EVENT_NAME\" \"$GITHUB_SHA\" \"$GITHUB_REF\""}]}}}

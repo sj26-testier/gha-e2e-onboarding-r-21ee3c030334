@@ -1,0 +1,1 @@
+{"name": "history-criss-pr-left", "on": {"pull_request": {"branches": ["target-criss"], "paths": ["cc-left.txt"]}}, "permissions": {}, "jobs": {"observe": {"runs-on": "ubuntu-latest", "timeout-minutes": 2, "steps": [{"run": "printf \"EVENT=%s SHA=%s REF=%s\\n\" \"$GITHUB_EVENT_NAME\" \"$GITHUB_SHA\" \"$GITHUB_REF\""}]}}}
