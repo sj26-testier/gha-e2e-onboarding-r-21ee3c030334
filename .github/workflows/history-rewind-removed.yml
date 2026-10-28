@@ -1,0 +1,1 @@
+{"name": "history-rewind-removed", "on": {"push": {"branches": ["hist-rewind"], "paths": ["removed-on-rewind.txt"]}}, "permissions": {}, "jobs": {"observe": {"runs-on": "ubuntu-latest", "timeout-minutes": 2, "steps": [{"run": "printf \"EVENT=%s SHA=%s REF=%s\\n\" \"$GITHUB_EVENT_NAME\" \"$GITHUB_SHA\" \"$GITHUB_REF\""}]}}}
